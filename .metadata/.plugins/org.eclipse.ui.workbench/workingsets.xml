@@ -4,6 +4,7 @@
 <item elementID="=Mission/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Study/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Study/Membership" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=khClass/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1603694457331_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1603694458128_2" label="Window Working Set" name="Aggregate for window 1603694458128"/>

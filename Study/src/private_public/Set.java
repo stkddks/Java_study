@@ -56,6 +56,10 @@ class Hacker1{		//해커가 내 잔액에 접근하려해 하지만
 	}
 }
 
+
+
+// 가구 사고 팔기
+
 class Furniture {
 	protected int price; //제품가격
 	public Furniture (int price) {

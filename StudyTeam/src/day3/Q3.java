@@ -22,6 +22,7 @@ public class Q3 {
 			sum += arr[i];
 			avg = sum/sel;
 		}
+		
 		System.out.println("\n∆Ú±’¿∫: " +avg);
 		sc.close();
 	}

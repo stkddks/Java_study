@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class Game_31{
 	public static void main(String[] args) {
-		
-		
+		BR();
 	}
-	public void br() {
+	public static void BR() {
 		Scanner sc = new Scanner(System.in);
 		Random r = new Random();
 		boolean bool = true;
@@ -16,27 +15,28 @@ public class Game_31{
 
 		while (bool) {
 			System.out.println("베스킨라빈스 게임을 시작합니다");
-			System.out.println("1. Game Start");
-//			System.out.println("2. Game Score");
-			System.out.println("3. End Game");
-			System.out.print("선택 > ");
+			System.out.println("1. 게임 시작");
+			System.out.println("2. 게임 저장");
+			System.out.println("3. 게임 끝!!");
+			System.out.print("선택 >> ");
 
 			int select = sc.nextInt();
 
 			switch (select) {
 			case 1:
-				System.out.println("<<  Game Start  >>");
+				System.out.println("\n<<  게임 시작  >>");
 				int userNum = 0;
 
 				while (true) {
 					System.out.println();
-					System.out.println("<<  Your Turn  >>");
-					System.out.print("Input Number< 1 ~ 3 > ");
+					System.out.println("<<  너 차 례 ^^  >>");
+					System.out.print("몇 개 부를 꺼야? ");
 					userNum = sc.nextInt();
 					while (true) {
 						if (userNum < 1 || 3 < userNum) {
-							System.out.println("수를 잘못 입력하셨습니다.");
-							System.out.print("1 ~ 3까지의 수 중에서 선택해 주십시오 > ");
+							System.out.println("\n쪽바로 해..수가 틀렸잖아..");
+							System.out.println("너에게 허락된 수는 1 ~ 3까지야");
+							System.out.println("다시 선택해 > ");
 							userNum = sc.nextInt();
 						} else if (0 < userNum && userNum < 4) {
 							break;
@@ -55,7 +55,7 @@ public class Game_31{
 						break;
 					}
 					System.out.println();
-					System.out.println("<<  Computer Turn  >>");
+					System.out.println("<<  내 차례야! 조용히해! >>");
 					int comNum = r.nextInt(3) + 1;
 
 					for (int i = 0; i < comNum; i++) {
@@ -65,12 +65,13 @@ public class Game_31{
 						}
 					}
 					if (br > 31) {
-						System.out.println("컴퓨터가 졌습니다!");
+						System.out.println("헐..미안해..내가 졌어......");
 						System.out.println();
 						score++;
 						break;
 					}
 				}
+				br=1;
 				break;
 
 			case 2:

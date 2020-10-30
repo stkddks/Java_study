@@ -1,7 +1,7 @@
 package testProject;
 import java.util.Arrays;
 import java.util.Random;
-public class lotto {
+public class Lotto {
 
 	public static void main(String[] args) {
 		int count=0;

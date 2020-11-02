@@ -1,3 +1,6 @@
+
+// InputBuffer.java 에서 주석추가
+
 package io;
 
 import java.io.BufferedReader;

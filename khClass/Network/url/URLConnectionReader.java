@@ -1,4 +1,4 @@
-package network;
+package url;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

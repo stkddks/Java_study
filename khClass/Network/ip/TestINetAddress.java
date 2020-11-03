@@ -1,4 +1,4 @@
-package test.inet;
+package ip;
 import java.net.*;
 public class TestINetAddress {
 	public static void main(String[] args) throws UnknownHostException {

@@ -1,4 +1,4 @@
-package test.inet;
+package ip;
 
 import java.util.*;
 import java.net.*;

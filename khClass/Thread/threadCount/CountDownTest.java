@@ -1,9 +1,4 @@
 
-
-// 하는 중!!! 
-// 프레임 창에 계산기 했던거 띄워보기
-
-
 package threadCount;
 
 import java.awt.*;

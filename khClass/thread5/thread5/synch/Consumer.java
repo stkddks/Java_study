@@ -15,7 +15,7 @@ public class Consumer implements Runnable {
 			int data = buffer.get();
 			System.out.println("소비자: " + data + "번 케익을 소비하였습니다.");
 			try {
-				Thread.sleep((int) (Math.random() * 5000));
+				Thread.sleep((int) (Math.random() * 5000));		// *5000은 5초 기다리라고 넣어준거야(흐름 보고싶어서)
 			} catch (InterruptedException e) {
 			}
 		}

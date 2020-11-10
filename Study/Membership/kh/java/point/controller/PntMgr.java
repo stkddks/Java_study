@@ -1,10 +1,11 @@
 package kh.java.point.controller;
 
 import java.util.Scanner;
-import kh.java.point.model.vo.Gold;
+
 import kh.java.point.model.vo.Grade;
-import kh.java.point.model.vo.Silver;
-import kh.java.point.model.vo.Vip;
+import membership.model.vo.Gold;
+import membership.model.vo.Silver;
+import membership.model.vo.Vip;
 
 public class PntMgr{
 

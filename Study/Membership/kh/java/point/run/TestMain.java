@@ -3,8 +3,9 @@ package kh.java.point.run;
 import java.awt.Font;
 import java.util.Scanner;
 
-import kh.java.point.controller.PntMgr;
 import javax.swing.*;
+
+import membership.controller.PntMgr;
 
 public class TestMain {
 

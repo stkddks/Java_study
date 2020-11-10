@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Membership"/>
 	<classpathentry kind="src" path="Membership_map"/>
+	<classpathentry kind="src" path="Report"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
